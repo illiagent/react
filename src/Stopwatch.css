@@ -1,0 +1,64 @@
+.arrow {
+  background: black;
+  height: 83px;
+  left: 155px;
+  position: absolute;
+  top: 103px;
+  transform-origin: 50% 100%;
+  width: 1px;
+  z-index: 999;
+}
+
+.arrow-small {
+  background: red;
+  height: 25px;
+  top: 113px;
+  left: 155px;
+  position: absolute;
+  transform-origin: 50% 100%;
+  width: 1px;
+}
+
+.Main {
+  background-image: url(./stopwatch.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 300px;
+  height: 300px;
+}
+.display {
+  width: 100px;
+  position: absolute;
+  left: 115px;
+  top: 200px;
+  font-size: 10px;
+}
+.btns {
+  position: absolute;
+  left: 50px;
+  top: 280px;
+}
+.stop {
+  position: absolute;
+  left: 220px;
+  top: 280px;
+}
+.lapBtn {
+  position: absolute;
+  left: 50px;
+  top: 310px;
+}
+.lapReset {
+  position: absolute;
+  left: 220px;
+  top: 310px;
+  z-index: 9999;
+}
+.lapsResult {
+  width: 500px;
+  position: absolute;
+  left: 60px;
+  top: 330px;
+  font-size: 10px;
+}
